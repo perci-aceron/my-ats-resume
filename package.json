@@ -1,6 +1,7 @@
 {
   "name": "ats-resume",
-  "private": false,
+  "private": true,
+  "homepage": "https://perci-aceron.github.io/ats-resume/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
