@@ -113,14 +113,6 @@ const ResumeATS = () => {
               CSS3
             </li>
             <li>
-              <FaGitAlt />
-              GIT
-            </li>
-            <li>
-              <SiWebpack />
-              WebPack
-            </li>
-            <li>
               <SiJavascript />
               JavaScript
             </li>
@@ -135,6 +127,14 @@ const ResumeATS = () => {
             <li>
               <FaNodeJs />
               Node.js
+            </li>
+            <li>
+              <FaGitAlt />
+              GIT
+            </li>
+            <li>
+              <SiWebpack />
+              WebPack
             </li>
           </ul>
         </section>
@@ -207,38 +207,57 @@ const ResumeATS = () => {
           <h3>Work Experience</h3>
           <div className={classes.experience}>
             <h4>
-              Real Estate Sales Agent - <span className={classes.subtitle}>Freelance</span>
+              Real Estate Sales Agent -{" "}
+              <span className={classes.subtitle}>Freelance</span>
             </h4>
-            <p>September 2022 - recent</p>
+            <p>January 2022 - recent</p>
             <ul>
               <li>
-              Market and sale diverse vertical and horizontal projects from reputable developers across the Philippines.
+                Market and sale diverse vertical and horizontal projects from
+                reputable developers across the Philippines.
               </li>
-              <li>Identify and research potential clients and generate leads through various Social Media and CRM tools and channels such as cold calling, networking, and referrals.</li>
-              <li>Conduct client presentations and accompany them during on-site visits to view the available units. Additionally, provide support in managing and fulfilling documentary requirements.</li>
+              <li>
+                Identify and research potential clients and generate leads
+                through various Social Media and CRM tools and channels such as
+                cold calling, networking, and referrals.
+              </li>
+              <li>
+                Conduct client presentations and accompany them during on-site
+                visits to view the available units. Additionally, provide
+                support in managing and fulfilling documentary requirements.
+              </li>
             </ul>
           </div>
           <div className={classes.experience}>
             <h4>
-              Licensed Embalmer / Autopsy Technician - <span className={classes.subtitle}>On-call</span>
+              Embalmer / Funeral Assistant -{" "}
+              <span className={classes.subtitle}>On-call</span>
             </h4>
-            <p>March 2021 - recent</p>
+            <p>June 2021 - recent</p>
             <ul>
+              <li>Public health practitioner or sanitarian.</li>
               <li>
-                Public health practitioner or sanitarian.
+                Preserver, restorer or beautifier of the remains to its most
+                acceptable appearance.
               </li>
-              <li>Preserver, restorer or beautifier of the remains to its most acceptable appearance.</li>
-              <li>Attend to all procedures and sanitary precautions in embalming.</li>
+              <li>
+                Attend to all procedures and sanitary precautions in embalming.
+              </li>
             </ul>
           </div>
           <div className={classes.experience}>
             <h4>
               Purchasing Assistant <span className={classes.subtitle}></span>
             </h4>
-            <p>June 2019 - January 2020</p>
+            <p>June 2019 - December 2019</p>
             <ul>
-              <li>Interacts with suppliers regularly and ensures timely invoicing.</li>
-              <li>Assists with smaller purchases, reviews, and manages inventories.</li>
+              <li>
+                Interacts with suppliers regularly and ensures timely invoicing.
+              </li>
+              <li>
+                Assists with smaller purchases, reviews, and manages
+                inventories.
+              </li>
               <li>Negotiating contract terms of agreement and pricing.</li>
             </ul>
           </div>
@@ -256,9 +275,9 @@ const ResumeATS = () => {
             Dear Sir/Madam,
             <br />
             <br />
-            I'm happy to be applying to the currently open <strong>{
-              aboutMe.position
-            }</strong> at <strong>{aboutMe.company}</strong>.
+            I'm happy to be applying to the currently open{" "}
+            <strong>{aboutMe.position}</strong> at{" "}
+            <strong>{aboutMe.company}</strong>.
             <br />
             I am an entry-level Front End Developer and know HTML5, CSS3,
             JavaScript, React, and Node.js. In addition to this, I have
